@@ -4,9 +4,9 @@ import { ResultRepository } from "../result-repository";
 
 export class PrismaResultsRepository implements ResultRepository {
   async create({
-    nome = "",
-    email = "",
-    telefone = "",
+    nome,
+    email,
+    telefone,
     questao_1_grupo_1_Placas_e_Parafusos_para_quadril_ou_pelvis,
     questao_1_grupo_1_Placas_e_Parafusos_extremidades_inferiores,
     questao_1_grupo_1_Placas_e_Parafusos_extremidades_superiores,
@@ -283,6 +283,11 @@ export class PrismaResultsRepository implements ResultRepository {
     questao_8_3_4,
     questao_9,
     questao_10,
+    questao_10_1,
+    questao_10_2,
+    questao_10_3,
+    questao_10_4,
+    comentario_pesquisa,
     recomendacoes
   }: ResultDto
   ): Promise<void> {
@@ -567,7 +572,12 @@ export class PrismaResultsRepository implements ResultRepository {
         questao_8_3_4,
         questao_9,
         questao_10,
-        recomendacoes
+        questao_10_1,
+        questao_10_2,
+        questao_10_3,
+        questao_10_4,
+        comentario_pesquisa,
+        recomendacoes,
       }
     })
   }

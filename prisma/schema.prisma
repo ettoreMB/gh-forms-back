@@ -304,6 +304,11 @@ model result_pesquisa_distribuidor {
   questao_8_3_4                                                String   @default("")
   questao_9                                                    String   @default("")
   questao_10                                                   String   @default("")
+  questao_10_1                                                 String   @default("")
+  questao_10_2                                                 String   @default("")
+  questao_10_3                                                 String   @default("")
+  questao_10_4                                                 String   @default("")
+  comentario_pesquisa                                          String   @default("")
   recomendacoes                                                String   @default("")
   created_at                                                   DateTime @default(now())
 

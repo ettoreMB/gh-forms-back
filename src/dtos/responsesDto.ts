@@ -268,16 +268,21 @@ export interface ResultDto {
   questao_6_MiniFixacoesExternas_7: string
   questao_6_MiniFixacoesExternas_8: string
   questao_6_MiniFixacoesExternas_9: string
-  questao_7: string
-  questao_8: string
-  questao_8_1: string
-  questao_8_2: string
-  questao_8_3_1: string
-  questao_8_3_2: string
-  questao_8_3_3: string
-  questao_8_3_4: string
-  questao_9: string
-  questao_10: string
-  recomendacoes: string
+  questao_7: string;
+  questao_8: string;
+  questao_8_1: string;
+  questao_8_2: string;
+  questao_8_3_1: string;
+  questao_8_3_2: string;
+  questao_8_3_3: string;
+  questao_8_3_4: string;
+  questao_9: string;
+  questao_10: string;
+  questao_10_1: string;
+  questao_10_2: string;
+  questao_10_3: string;
+  questao_10_4: string;
+  comentario_pesquisa: string;
+  recomendacoes: string;
 }
 
