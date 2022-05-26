@@ -6,7 +6,7 @@ generator client {
 }
 
 datasource db {
-  provider = "postgres"
+  provider = "sqlserver"
   url      = env("DATABASE_URL")
 }
 
@@ -23,7 +23,7 @@ model contato {
   @@map("Contatos")
 }
 
-model response {
+model result_pesquisa_distribuidor {
   id                                                           Int      @id @default(autoincrement())
   nome                                                         String   @default("")
   email                                                        String   @default("")
@@ -307,5 +307,5 @@ model response {
   recomendacoes                                                String   @default("")
   created_at                                                   DateTime @default(now())
 
-  @@map("Results")
+  @@map("Results_Pesquisa_Distribuidores")
 }

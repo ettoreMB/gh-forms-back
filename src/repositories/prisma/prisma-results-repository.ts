@@ -286,7 +286,7 @@ export class PrismaResultsRepository implements ResultRepository {
     recomendacoes
   }: ResultDto
   ): Promise<void> {
-    await prisma.response.create({
+    await prisma.result_pesquisa_distribuidor.create({
       data: {
         nome,
         email,
