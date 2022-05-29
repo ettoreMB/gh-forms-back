@@ -45,4 +45,5 @@ jobs:
             exec bash \-l
             cd ~/app/gh-forms-back
             npm i
+            npx prisma migrate dev
             pm2 restart pesquisas_gh
