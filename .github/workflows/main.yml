@@ -25,9 +25,7 @@ jobs:
       - name: generate prisma
         run: npx prisma generate
 
-      - name: Migrate Database
-        run: npx prisma migrate deploy
-        
+      
       - name: Build
         run: npm run build
 
@@ -51,4 +49,5 @@ jobs:
             exec bash \-l
             cd ~/app/gh-forms-back
             npm i
+            npx prisma migrate deploy
             pm2 restart pesquisas_gh
