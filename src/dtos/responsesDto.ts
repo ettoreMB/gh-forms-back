@@ -140,6 +140,7 @@ export interface ResultDto {
   questao_5_pergunta_1: string
   questao_5_pergunta_2: string
   questao_5_pergunta_3: string
+  questao_6_PlacasParaQuadrilPelvis_1: string
   questao_6_PlacasParaQuadrilPelvis_2: string
   questao_6_PlacasParaQuadrilPelvis_3: string
   questao_6_PlacasParaQuadrilPelvis_4: string
@@ -148,6 +149,8 @@ export interface ResultDto {
   questao_6_PlacasParaQuadrilPelvis_7: string
   questao_6_PlacasParaQuadrilPelvis_8: string
   questao_6_PlacasParaQuadrilPelvis_9: string
+  questao_6_PlacasParaQuadrilPelvis_10: string
+  questao_6PlacasExtremidadesInferiores_1: string
   questao_6PlacasExtremidadesInferiores_2: string
   questao_6PlacasExtremidadesInferiores_3: string
   questao_6PlacasExtremidadesInferiores_4: string
@@ -156,6 +159,8 @@ export interface ResultDto {
   questao_6PlacasExtremidadesInferiores_7: string
   questao_6PlacasExtremidadesInferiores_8: string
   questao_6PlacasExtremidadesInferiores_9: string
+  questao_6PlacasExtremidadesInferiores_10: string
+  questao_6_PlacasExtremidadesSuperiores_1: string
   questao_6_PlacasExtremidadesSuperiores_2: string
   questao_6_PlacasExtremidadesSuperiores_3: string
   questao_6_PlacasExtremidadesSuperiores_4: string
@@ -164,6 +169,8 @@ export interface ResultDto {
   questao_6_PlacasExtremidadesSuperiores_7: string
   questao_6_PlacasExtremidadesSuperiores_8: string
   questao_6_PlacasExtremidadesSuperiores_9: string
+  questao_6_PlacasExtremidadesSuperiores_10: string
+  questao_6_ParafusosQuadrilPelvis_1: string
   questao_6_ParafusosQuadrilPelvis_2: string
   questao_6_ParafusosQuadrilPelvis_3: string
   questao_6_ParafusosQuadrilPelvis_4: string
@@ -172,6 +179,8 @@ export interface ResultDto {
   questao_6_ParafusosQuadrilPelvis_7: string
   questao_6_ParafusosQuadrilPelvis_8: string
   questao_6_ParafusosQuadrilPelvis_9: string
+  questao_6_ParafusosQuadrilPelvis_10: string
+  questao_6_ParafusosExtremidadesInferiores_1: string
   questao_6_ParafusosExtremidadesInferiores_2: string
   questao_6_ParafusosExtremidadesInferiores_3: string
   questao_6_ParafusosExtremidadesInferiores_4: string
@@ -180,6 +189,8 @@ export interface ResultDto {
   questao_6_ParafusosExtremidadesInferiores_7: string
   questao_6_ParafusosExtremidadesInferiores_8: string
   questao_6_ParafusosExtremidadesInferiores_9: string
+  questao_6_ParafusosExtremidadesInferiores_10: string
+  questao_6_ParafusosExtremidadesSuperiores_1: string
   questao_6_ParafusosExtremidadesSuperiores_2: string
   questao_6_ParafusosExtremidadesSuperiores_3: string
   questao_6_ParafusosExtremidadesSuperiores_4: string
@@ -188,6 +199,8 @@ export interface ResultDto {
   questao_6_ParafusosExtremidadesSuperiores_7: string
   questao_6_ParafusosExtremidadesSuperiores_8: string
   questao_6_ParafusosExtremidadesSuperiores_9: string
+  questao_6_ParafusosExtremidadesSuperiores_10: string
+  questao_6_PinosIntramedularesUmeral_1: string
   questao_6_PinosIntramedularesUmeral_2: string
   questao_6_PinosIntramedularesUmeral_3: string
   questao_6_PinosIntramedularesUmeral_4: string
@@ -196,6 +209,8 @@ export interface ResultDto {
   questao_6_PinosIntramedularesUmeral_7: string
   questao_6_PinosIntramedularesUmeral_8: string
   questao_6_PinosIntramedularesUmeral_9: string
+  questao_6_PinosIntramedularesUmeral_10: string
+  questao_6_PinosIntramedularesAcetabulares_1: string
   questao_6_PinosIntramedularesAcetabulares_2: string
   questao_6_PinosIntramedularesAcetabulares_3: string
   questao_6_PinosIntramedularesAcetabulares_4: string
@@ -204,6 +219,8 @@ export interface ResultDto {
   questao_6_PinosIntramedularesAcetabulares_7: string
   questao_6_PinosIntramedularesAcetabulares_8: string
   questao_6_PinosIntramedularesAcetabulares_9: string
+  questao_6_PinosIntramedularesAcetabulares_10: string
+  questao_6_PinoIntramedularFemoral_1: string
   questao_6_PinoIntramedularFemoral_2: string
   questao_6_PinoIntramedularFemoral_3: string
   questao_6_PinoIntramedularFemoral_4: string
@@ -212,6 +229,8 @@ export interface ResultDto {
   questao_6_PinoIntramedularFemoral_7: string
   questao_6_PinoIntramedularFemoral_8: string
   questao_6_PinoIntramedularFemoral_9: string
+  questao_6_PinoIntramedularFemoral_10: string
+  questao_6_PinosIntramedularesTibiais_1: string
   questao_6_PinosIntramedularesTibiais_2: string
   questao_6_PinosIntramedularesTibiais_3: string
   questao_6_PinosIntramedularesTibiais_4: string
@@ -220,6 +239,8 @@ export interface ResultDto {
   questao_6_PinosIntramedularesTibiais_7: string
   questao_6_PinosIntramedularesTibiais_8: string
   questao_6_PinosIntramedularesTibiais_9: string
+  questao_6_PinosIntramedularesTibiais_10: string
+  questao_6_ParafusosPequenosCanulados_1: string
   questao_6_ParafusosPequenosCanulados_2: string
   questao_6_ParafusosPequenosCanulados_3: string
   questao_6_ParafusosPequenosCanulados_4: string
@@ -228,6 +249,8 @@ export interface ResultDto {
   questao_6_ParafusosPequenosCanulados_7: string
   questao_6_ParafusosPequenosCanulados_8: string
   questao_6_ParafusosPequenosCanulados_9: string
+  questao_6_ParafusosPequenosCanulados_10: string
+  questao_6_ParafusosGrandescanulados_1: string
   questao_6_ParafusosGrandescanulados_2: string
   questao_6_ParafusosGrandescanulados_3: string
   questao_6_ParafusosGrandescanulados_4: string
@@ -236,6 +259,8 @@ export interface ResultDto {
   questao_6_ParafusosGrandescanulados_7: string
   questao_6_ParafusosGrandescanulados_8: string
   questao_6_ParafusosGrandescanulados_9: string
+  questao_6_ParafusosGrandescanulados_10: string
+  questao_6_GrandesFixaCoesExternas_1: string
   questao_6_GrandesFixaCoesExternas_2: string
   questao_6_GrandesFixaCoesExternas_3: string
   questao_6_GrandesFixaCoesExternas_4: string
@@ -244,6 +269,8 @@ export interface ResultDto {
   questao_6_GrandesFixaCoesExternas_7: string
   questao_6_GrandesFixaCoesExternas_8: string
   questao_6_GrandesFixaCoesExternas_9: string
+  questao_6_GrandesFixaCoesExternas_10: string
+  questao_6_FixacoesExternasMedias_1: string
   questao_6_FixacoesExternasMedias_2: string
   questao_6_FixacoesExternasMedias_3: string
   questao_6_FixacoesExternasMedias_4: string
@@ -252,6 +279,8 @@ export interface ResultDto {
   questao_6_FixacoesExternasMedias_7: string
   questao_6_FixacoesExternasMedias_8: string
   questao_6_FixacoesExternasMedias_9: string
+  questao_6_FixacoesExternasMedias_10: string
+  questao_6_PequenasFixaCoesExternas_1: string
   questao_6_PequenasFixaCoesExternas_2: string
   questao_6_PequenasFixaCoesExternas_3: string
   questao_6_PequenasFixaCoesExternas_4: string
@@ -260,6 +289,8 @@ export interface ResultDto {
   questao_6_PequenasFixaCoesExternas_7: string
   questao_6_PequenasFixaCoesExternas_8: string
   questao_6_PequenasFixaCoesExternas_9: string
+  questao_6_PequenasFixaCoesExternas_10: string
+  questao_6_MiniFixacoesExternas_1: string
   questao_6_MiniFixacoesExternas_2: string
   questao_6_MiniFixacoesExternas_3: string
   questao_6_MiniFixacoesExternas_4: string
@@ -268,6 +299,7 @@ export interface ResultDto {
   questao_6_MiniFixacoesExternas_7: string
   questao_6_MiniFixacoesExternas_8: string
   questao_6_MiniFixacoesExternas_9: string
+  questao_6_MiniFixacoesExternas_10: string
   questao_7: string;
   questao_8: string;
   questao_8_1: string;
