@@ -1,5 +1,6 @@
 import { ResultDto } from "../dtos/responsesDto";
-import { responses_medico_traumaDTO } from "../dtos/responses_medico_traumaDTO";
+import { ResponsesHospitalTraumaDTO } from "../dtos/responses_hospital_trauma_DTO";
+import { responsesMedicoTraumaDTO } from "../dtos/responses_medico_trauma_DTO";
 
 
 export interface ResultRepository {
@@ -7,5 +8,9 @@ export interface ResultRepository {
 }
 
 export interface ResultPesquisaMedicosRepository {
-  create: (data: responses_medico_traumaDTO) => Promise<void>;
+  create: (data: responsesMedicoTraumaDTO) => Promise<void>;
+}
+
+export interface ResultPesquisaHospitalRepository {
+  create: (data: ResponsesHospitalTraumaDTO) => Promise<void>;
 }

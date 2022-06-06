@@ -1,4 +1,4 @@
-export interface responses_medico_traumaDTO {
+export interface responsesMedicoTraumaDTO {
   nome: string;
   email: string;
   questao_1_ARTRODESE_DE_TORNOZELO: boolean;

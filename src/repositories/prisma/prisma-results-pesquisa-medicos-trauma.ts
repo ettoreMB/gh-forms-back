@@ -1,5 +1,5 @@
 import { ResultDto } from "../../dtos/responsesDto";
-import { responses_medico_traumaDTO } from "../../dtos/responses_medico_traumaDTO";
+import { responsesMedicoTraumaDTO } from "../../dtos/responses_medico_trauma_DTO";
 import { prisma } from "../../prisma";
 import { ResultPesquisaMedicosRepository } from '../result-repository';
 
@@ -339,7 +339,7 @@ export class PrismaResultsPesquisaMedicosTraumaRepository implements ResultPesqu
     questao_17_4,
     questao_18,
     questao_19
-  }: responses_medico_traumaDTO
+  }: responsesMedicoTraumaDTO
   ): Promise<void> {
     await prisma.result_pesquisa_medicos_trauma.create({
       data: {
