@@ -988,7 +988,23 @@ model result_pesquisa_hospital_trauma {
   questao_10_particular                                        String  @default("")
   questao_10_seguro_privado                                    String  @default("")
   questao_10_sus                                               String  @default("")
+  questao_11                                                   String  @default("")
+  questao_11_1                                                 String  @default("")
+  questao_12                                                   String  @default("")
+  questao_12_1                                                 String  @default("")
+  questao_12_2                                                 String  @default("")
+  questao_12_3                                                 String  @default("")
+  questao_13                                                   String  @default("")
+  questao_13_1                                                 String  @default("")
+  questao_13_2                                                 String  @default("")
+  questao_13_3                                                 String  @default("")
+  questao_13_4                                                 String  @default("")
+  questao_14                                                   String  @default("")
+  questao_15                                                   String  @default("")
+  questao_16                                                   String  @default("")
+  comentario                                                   String  @default("")
   telefoneString                                               String  @default("")
+
 
   @@map("Results_Pesquisa_Hospitais_trauma")
 }
