@@ -137,6 +137,17 @@ export interface ResponsesHospitalTraumaDTO {
   questao_8_1: string
   questao_8_2: string
   questao_8_3: string
+  questao_8_4_Baumer: boolean
+  questao_8_4_Biomecanica: boolean
+  questao_8_4_GM_Reis: boolean
+  questao_8_4_Hexagon: boolean
+  questao_8_4_IOL: boolean
+  questao_8_4_Neo_Ortho: boolean
+  questao_8_4_Ortosintese: boolean
+  questao_8_4_Traumec: boolean
+  questao_8_4_Traumedica: boolean
+  questao_8_4_Vincula: boolean
+  questao_8_4_outros: string
   questao_9_Fixacao_externa_media_1: boolean
   questao_9_Fixacao_externa_media_2: string
   questao_9_Fixacao_externa_media_3: string
