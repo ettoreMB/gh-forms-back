@@ -187,6 +187,17 @@ export interface responsesMedicoTraumaDTO {
   questao_9_1: string;
   questao_9_2: string;
   questao_9_3: string;
+  questao_9_4_Baumer : boolean;
+  questao_9_4_Biomecanica : boolean;
+  questao_9_4_GM_Reis : boolean;
+  questao_9_4_Hexagon : boolean;
+  questao_9_4_IOL : boolean;
+  questao_9_4_Neo_Ortho : boolean;
+  questao_9_4_Ortosintese : boolean;
+  questao_9_4_Traumec : boolean;
+  questao_9_4_Traumedica : boolean;
+  questao_9_4_Vincula : boolean;
+  questao_9_4_outros : string;
   questao_10_Fixacao_externa_media_1: boolean;
   questao_10_Fixacao_externa_media_2: string;
   questao_10_Fixacao_externa_media_3: string;
