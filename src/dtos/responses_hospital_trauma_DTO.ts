@@ -311,20 +311,20 @@ export interface ResponsesHospitalTraumaDTO {
   questao_10_particular: string
   questao_10_seguro_privado: string
   questao_10_sus: string
-  questao_11: string
-  questao_11_1: string
-  questao_12: string
-  questao_12_1: string
-  questao_12_2: string
-  questao_12_3: string
-  questao_13: string
-  questao_13_1: string
-  questao_13_2: string
-  questao_13_3: string
-  questao_13_4: string
-  questao_14: string
-  questao_15: string
-  questao_16: string
-  comentario: string
+  questao_11: string;
+  questao_11_1: string;
+  questao_12: string;
+  questao_12_1: string;
+  questao_12_2: string;
+  questao_12_3: string;
+  questao_13: string;
+  questao_13_1: string;
+  questao_13_2: string;
+  questao_13_3: string;
+  questao_13_4: string;
+  questao_14: string;
+  questao_15: string;
+  questao_16: string;
+  comentario: string;
   telefoneString: string
 }
