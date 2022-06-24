@@ -140,6 +140,17 @@ export interface ResultDto {
   questao_5_pergunta_1: string
   questao_5_pergunta_2: string
   questao_5_pergunta_3: string
+  questao_5_pergunta_4_Baumer  : boolean
+  questao_5_pergunta_4_Biomecanica  : boolean
+  questao_5_pergunta_4_GM_Reis  : boolean
+  questao_5_pergunta_4_Hexagon  : boolean
+  questao_5_pergunta_4_IOL  : boolean
+  questao_5_pergunta_4_Neo_Ortho  : boolean
+  questao_5_pergunta_4_Ortosintese  : boolean
+  questao_5_pergunta_4_Traumec  : boolean
+  questao_5_pergunta_4_Traumedica  : boolean
+  questao_5_pergunta_4_Vincula  : boolean
+  questao_5_pergunta_4_outros  : string
   questao_6_PlacasParaQuadrilPelvis_1: string
   questao_6_PlacasParaQuadrilPelvis_2: string
   questao_6_PlacasParaQuadrilPelvis_3: string
